@@ -42,7 +42,7 @@ class Facebook extends Component {
         } else {
             fbContent = (
                 <FacebookLogin
-                appId="1710460002363481"
+                appId="<YOUR FB ID>"
                 autoLoad={true}
                 fields="name,email,picture"
                 onClick={this.componentClicked}
